@@ -1,0 +1,33 @@
+# Pipeline outputs (regenerable)
+*.h5ad
+*.h5
+*.loom
+processed/
+*_output/
+*_ckpt*.h5ad
+
+# Raw data
+*.mtx.gz
+*.tsv.gz
+*.tar
+*.tar.gz
+raw/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+.vscode/
+*.swp
+
+# Credentials
+.env
+secrets.json
+*.pem
+
+# Enrichr cache
+gseapy_cache/
